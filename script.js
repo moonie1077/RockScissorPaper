@@ -14,11 +14,12 @@ function getComputerChoice() {
         break;
         }
 }
+
 function formatPlayerInput (input) {
     let firstLetter = input.slice(0,1);
     let remainingLetters = input.slice(1);
     return firstLetter.toUpperCase() + remainingLetters.toLowerCase();
-}
+    }
 
 function playRound (playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
